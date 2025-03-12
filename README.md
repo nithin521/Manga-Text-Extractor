@@ -2,7 +2,7 @@
 This is the frontend for the Manga Text Extractor, a web application that allows users to upload manga images and extract dialogues using AI-powered OCR. The frontend is built using React.js, ensuring a seamless and interactive experience.
 
 ✨ Small Peek into Our Application
-
+![Alt Text](result2.png)
 
 # 🚀 Features
 ✅ Upload manga images (JPEG, PNG)
