@@ -1,0 +1,62 @@
+/* About.css */
+
+.about {
+  margin: 4rem;
+  width: 100%;
+  /* max-width: 48rem; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0rem 1rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #4b5563;
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #1e293b;
+}
+
+.about-content {
+  background-color: #fdf2f8;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 50px 20px 50px;
+}
+
+.about-content p {
+  color: #4b5563;
+  line-height: 1.625;
+  margin: 0;
+  text-align: justify;
+  font-size: large;
+}
+
+@media (max-width: 640px) {
+  .about {
+    margin-top: 2rem;
+  }
+
+  .about-content {
+    padding: 1.5rem;
+  }
+}
