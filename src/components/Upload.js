@@ -131,6 +131,7 @@ const Upload = () => {
                 ></div>
               </div>
               <div className="progress-text">{uploadProgress}% Uploaded</div>
+              <h2>Might take 1-2 mins to process</h2>
             </div>
           )}
         </div>
