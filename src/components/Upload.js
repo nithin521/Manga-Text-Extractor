@@ -47,7 +47,7 @@ const Upload = () => {
     }, 200);
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/extract-text", {
+      const response = await fetch("https://nithin521-Manga-Text-Extractor.hf.space/extract-text", {
         method: "POST",
         body: formData,
         headers: {},
